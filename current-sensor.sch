@@ -891,4 +891,6 @@ Text Notes 7500 1850 0    50   ~ 10
 to front-panel power LED
 Text Notes 2400 1450 0    50   ~ 10
 to 9V battery
+Text Notes 950  8000 0    50   ~ 0
+#4 clearance hole is approx. 3.2mm (M3)
 $EndSCHEMATC
