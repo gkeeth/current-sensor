@@ -27,3 +27,15 @@ _autosave-*
 
 # caches (regenerated on load)
 fp-info-cache
+
+# proprietary 3d models
+mechanical/bnc/*
+mechanical/SW_Push_SPDT_CK_PN1xSxxx03QE.*
+mechanical/SW_Slide_SP3T_CK_OS103011MA7QP1.*
+mechanical/BH9VW*
+mechanical/CKCOMPONENTS_PN12SJNA03QE/*
+mechanical/1593WBK.stp
+mechanical/1593w.FCStd
+mechanical/1593w_bottom.*
+mechanical/1593w_top.*
+mechanical/battery_holder.*
