@@ -50,4 +50,26 @@ F 5 "3760-4" H 4650 3850 50  0001 C CNN "Manufacturer PN"
 	1    4650 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 5F35F18D
+P 5200 7650
+F 0 "LOGO3" H 5200 7925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 5200 7425 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 5200 7650 50  0001 C CNN
+F 3 "~" H 5200 7650 50  0001 C CNN
+	1    5200 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic_gkeeth:Logo_MadeWithKiCad LOGO2
+U 1 1 5F35F508
+P 4000 7650
+F 0 "LOGO2" H 4000 7650 50  0001 C CNN
+F 1 "Logo_MadeWithKiCad" H 4000 7650 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4000 7650 50  0001 C CNN
+F 3 "" H 4000 7650 50  0001 C CNN
+	1    4000 7650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

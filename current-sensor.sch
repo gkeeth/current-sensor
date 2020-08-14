@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Creative_Commons:CC-BY-SA_0.5in LOGO1
 U 1 1 5EFB5A29
-P 5150 7400
-F 0 "LOGO1" H 5150 7180 60  0001 C CNN
-F 1 "CC-BY-SA_0.5in" H 5150 7620 60  0001 C CNN
-F 2 "Symbol_CreativeCommons:CC-BY-SA_SilkScreenTop_Small" H 5150 7400 50  0001 C CNN
-F 3 "" H 5150 7400 50  0001 C CNN
-	1    5150 7400
+P 5000 7050
+F 0 "LOGO1" H 5000 6830 60  0001 C CNN
+F 1 "CC-BY-SA_0.5in" H 5000 7270 60  0001 C CNN
+F 2 "Symbol_CreativeCommons:CC-BY-SA_SilkScreenTop_Small" H 5000 7050 50  0001 C CNN
+F 3 "" H 5000 7050 50  0001 C CNN
+	1    5000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -717,11 +717,11 @@ F 3 "~" H 1100 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Current_gkeeth:ACS730xLCTR-20AB U1
+L Sensor_Current_gkeeth:ACS730xLCTR-40AB U1
 U 1 1 5F083F8B
 P 2600 4350
 F 0 "U1" H 2850 4600 50  0000 C CNN
-F 1 "ACS730xLCTR-20AB" H 2100 4600 50  0000 C CNN
+F 1 "ACS730xLCTR-40AB" H 2100 4600 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
 	1    2600 4350
@@ -893,4 +893,26 @@ Text Notes 2400 1450 0    50   ~ 10
 to 9V battery
 Text Notes 950  8000 0    50   ~ 0
 #4 clearance hole is approx. 3.2mm (M3)
+$Comp
+L Graphic_gkeeth:Logo_MadeWithKiCad LOGO2
+U 1 1 5F364A72
+P 4600 7750
+F 0 "LOGO2" H 4600 7750 50  0001 C CNN
+F 1 "Logo_MadeWithKiCad" H 4600 7750 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4600 7750 50  0001 C CNN
+F 3 "" H 4600 7750 50  0001 C CNN
+	1    4600 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 5F365262
+P 5750 7700
+F 0 "LOGO3" H 5750 7975 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 5750 7475 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 5750 7700 50  0001 C CNN
+F 3 "~" H 5750 7700 50  0001 C CNN
+	1    5750 7700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
