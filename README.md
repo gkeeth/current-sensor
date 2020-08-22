@@ -1,7 +1,7 @@
 # current-sensor
 Hall effect current sensor board. Invasive (connected in series with DUT), with BNC output to oscilloscope.
 
-Designed to fit in 1593W enclosure. Includes PCBs for front and back panels.
+Designed to fit in Hammond 1593W enclosure. Includes PCBs for front and back panels.
 
 Licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
