@@ -48,8 +48,6 @@ F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2950 1200 50  0001 C 
 	1    2950 1200
 	1    0    0    -1  
 $EndComp
-Text Notes 8600 1000 0    50   ~ 0
-TODO\ncheck power switch pinout\nchange power switch PN to actually ordered one\nmake holes the right size
 $Comp
 L power:+5V #PWR0102
 U 1 1 5EFBEFD8
@@ -64,16 +62,16 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EFBF412
-P 4700 1250
-F 0 "#FLG0101" H 4700 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 4700 1423 50  0000 C CNN
-F 2 "" H 4700 1250 50  0001 C CNN
-F 3 "~" H 4700 1250 50  0001 C CNN
-	1    4700 1250
+P 4750 1250
+F 0 "#FLG0101" H 4750 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 1423 50  0000 C CNN
+F 2 "" H 4750 1250 50  0001 C CNN
+F 3 "~" H 4750 1250 50  0001 C CNN
+	1    4750 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 1250 4700 1300
+	4750 1250 4750 1300
 $Comp
 L power:GND #PWR0103
 U 1 1 5EFC0FA6
@@ -104,7 +102,7 @@ Wire Wire Line
 	4850 1350 4850 1300
 Connection ~ 4850 1300
 Wire Wire Line
-	4850 1300 4700 1300
+	4850 1300 4750 1300
 Wire Wire Line
 	5750 1300 5950 1300
 Wire Wire Line
@@ -213,12 +211,12 @@ $EndComp
 $Comp
 L Device:R R8
 U 1 1 5EFD8C6E
-P 7200 1200
-F 0 "R8" H 7270 1246 50  0000 L CNN
-F 1 "R" H 7270 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 1200 50  0001 C CNN
-F 3 "~" H 7200 1200 50  0001 C CNN
-	1    7200 1200
+P 7200 1050
+F 0 "R8" H 7270 1096 50  0000 L CNN
+F 1 "R" H 7270 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 1050 50  0001 C CNN
+F 3 "~" H 7200 1050 50  0001 C CNN
+	1    7200 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -235,16 +233,16 @@ $EndComp
 $Comp
 L power:+5V #PWR0109
 U 1 1 5EFDB3AC
-P 7200 950
-F 0 "#PWR0109" H 7200 800 50  0001 C CNN
-F 1 "+5V" H 7215 1123 50  0000 C CNN
-F 2 "" H 7200 950 50  0001 C CNN
-F 3 "" H 7200 950 50  0001 C CNN
-	1    7200 950 
+P 7200 800
+F 0 "#PWR0109" H 7200 650 50  0001 C CNN
+F 1 "+5V" H 7215 973 50  0000 C CNN
+F 2 "" H 7200 800 50  0001 C CNN
+F 3 "" H 7200 800 50  0001 C CNN
+	1    7200 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 950  7200 1050
+	7200 800  7200 900 
 $Comp
 L Amplifier_Operational_gkeeth:AD8616xRM U2
 U 2 1 5EFDF0B3
@@ -270,34 +268,34 @@ $EndComp
 $Comp
 L Device:R R5
 U 1 1 5EFE0549
-P 6150 4450
-F 0 "R5" V 5943 4450 50  0000 C CNN
-F 1 "10k" V 6034 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4450 50  0001 C CNN
-F 3 "~" H 6150 4450 50  0001 C CNN
-	1    6150 4450
+P 6050 4450
+F 0 "R5" V 5843 4450 50  0000 C CNN
+F 1 "10k" V 5934 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 4450 50  0001 C CNN
+F 3 "~" H 6050 4450 50  0001 C CNN
+	1    6050 4450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5EFE48EA
 P 7000 4200
-F 0 "R6" V 6793 4200 50  0000 C CNN
-F 1 "10k" V 6884 4200 50  0000 C CNN
+F 0 "R6" V 7207 4200 50  0000 C CNN
+F 1 "10k" V 7116 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 4200 50  0001 C CNN
 F 3 "~" H 7000 4200 50  0001 C CNN
 	1    7000 4200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 4450 6500 4450
+	6200 4450 6350 4450
 Wire Wire Line
-	6500 4450 6500 4200
+	6350 4450 6350 4200
 Wire Wire Line
-	6500 4200 6850 4200
-Connection ~ 6500 4450
+	6350 4200 6850 4200
+Connection ~ 6350 4450
 Wire Wire Line
-	6500 4450 6700 4450
+	6350 4450 6700 4450
 Wire Wire Line
 	7150 4200 7550 4200
 Wire Wire Line
@@ -338,24 +336,24 @@ F 3 "~" H 7350 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 3250 7150 3250
+	7050 3250 7150 3250
 Wire Wire Line
 	7150 3250 7150 2950
 Wire Wire Line
 	7150 2950 7250 2950
 Wire Wire Line
-	6950 3350 7250 3350
+	7050 3350 7250 3350
 Wire Wire Line
-	6950 3450 7150 3450
+	7050 3450 7150 3450
 Wire Wire Line
 	7150 3450 7150 3750
 Wire Wire Line
 	7150 3750 7250 3750
 Wire Wire Line
-	6500 4200 6500 3350
+	6350 4200 6350 3350
 Wire Wire Line
-	6500 3350 6550 3350
-Connection ~ 6500 4200
+	6350 3350 6550 3350
+Connection ~ 6350 4200
 Wire Wire Line
 	7550 3750 7450 3750
 Wire Wire Line
@@ -380,12 +378,12 @@ $Comp
 L Device:R R1
 U 1 1 5F007FE6
 P 4150 4350
-F 0 "R1" V 3943 4350 50  0000 C CNN
-F 1 "1k" V 4034 4350 50  0000 C CNN
+F 0 "R1" V 4357 4350 50  0000 C CNN
+F 1 "1k" V 4266 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 4350 50  0001 C CNN
 F 3 "~" H 4150 4350 50  0001 C CNN
 	1    4150 4350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R2
@@ -414,21 +412,19 @@ Wire Wire Line
 Wire Wire Line
 	5300 3000 5300 3250
 Wire Wire Line
-	5300 3250 5050 3250
+	5300 3250 5100 3250
 Wire Wire Line
-	5050 3350 5400 3350
+	5100 3350 5400 3350
 Wire Wire Line
-	5050 3450 5300 3450
+	5100 3450 5300 3450
 Wire Wire Line
 	5300 3450 5300 3700
 Wire Wire Line
 	5300 3700 5400 3700
 Wire Wire Line
-	4650 3350 4550 3350
+	4600 3350 4400 3350
 Wire Wire Line
-	4550 3350 4550 4350
-Wire Wire Line
-	4550 4350 4900 4350
+	4400 4350 4900 4350
 Wire Wire Line
 	5500 4450 5800 4450
 Wire Wire Line
@@ -446,8 +442,8 @@ Connection ~ 5800 3700
 Wire Wire Line
 	5800 3700 5800 3350
 Wire Wire Line
-	4300 4350 4550 4350
-Connection ~ 4550 4350
+	4300 4350 4400 4350
+Connection ~ 4400 4350
 Text Notes 5850 3000 0    50   ~ 0
 1X
 Text Notes 5850 3350 0    50   ~ 0
@@ -528,7 +524,7 @@ Connection ~ 3100 5850
 Wire Wire Line
 	3100 5850 3100 6100
 Wire Wire Line
-	6000 4450 5800 4450
+	5900 4450 5800 4450
 Connection ~ 5800 4450
 $Comp
 L Amplifier_Operational_gkeeth:AD8616xRM U2
@@ -717,17 +713,6 @@ F 3 "~" H 1100 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Current_gkeeth:ACS730xLCTR-40AB U1
-U 1 1 5F083F8B
-P 2600 4350
-F 0 "U1" H 2850 4600 50  0000 C CNN
-F 1 "ACS730xLCTR-40AB" H 2100 4600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
-	1    2600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear_gkeeth:NCP718ASN500 U4
 U 1 1 5F257D76
 P 5450 1500
@@ -788,10 +773,8 @@ F 3 "~" H 5950 1500 50  0001 C CNN
 $EndComp
 NoConn ~ 4100 1100
 Wire Wire Line
-	3150 1200 3700 1200
-Connection ~ 4700 1300
-Wire Wire Line
-	4100 1300 4700 1300
+	3150 1200 3600 1200
+Connection ~ 4750 1300
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5F2A967E
@@ -838,34 +821,23 @@ $EndComp
 $Comp
 L Switch_gkeeth:PN12Sxxx03QE SW1
 U 1 1 5F261DB5
-P 3900 1200
-F 0 "SW1" H 3900 1485 50  0000 C CNN
-F 1 "PN12Sxxx03QE" H 3900 1394 50  0000 C CNN
-F 2 "Button_Switch_THT_gkeeth:SW_Push_SPDT_CK_PN1xSxxx03QE" H 3900 1200 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 3900 1200 50  0001 C CNN
-	1    3900 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch_gkeeth:OS103011MA7QP1 SW2
-U 1 1 5F2627B8
-P 4850 3350
-F 0 "SW2" H 4850 3633 50  0000 C CNN
-F 1 "OS103011MA7QP1" H 4850 3542 50  0000 C CNN
-F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 4225 3525 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 4225 3525 50  0001 C CNN
-	1    4850 3350
+P 3850 1200
+F 0 "SW1" H 3850 1485 50  0000 C CNN
+F 1 "PN12SHNA03QE" H 3850 1394 50  0000 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Push_SPDT_CK_PN1xSxxx03QE" H 3850 1200 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 3850 1200 50  0001 C CNN
+	1    3850 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch_gkeeth:OS103011MA7QP1 SW3
 U 1 1 5F26317F
-P 6750 3350
-F 0 "SW3" H 6750 3633 50  0000 C CNN
-F 1 "OS103011MA7QP1" H 6750 3542 50  0000 C CNN
-F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 6125 3525 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 6125 3525 50  0001 C CNN
-	1    6750 3350
+P 6800 3350
+F 0 "SW3" H 6800 3633 50  0000 C CNN
+F 1 "OS103011MA7QP1" H 6800 3542 50  0000 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 6175 3525 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 6175 3525 50  0001 C CNN
+	1    6800 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -881,8 +853,6 @@ F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7500 1600 50  0001 C 
 $EndComp
 Wire Wire Line
 	7200 1600 7300 1600
-Wire Wire Line
-	7200 1350 7200 1600
 Wire Wire Line
 	7300 1700 7200 1700
 Wire Wire Line
@@ -915,4 +885,91 @@ F 3 "~" H 5750 7700 50  0001 C CNN
 	1    5750 7700
 	1    0    0    -1  
 $EndComp
+Text Label 1650 4250 0    50   ~ 0
+current+
+Text Label 1650 4450 0    50   ~ 0
+current-
+Text Label 8950 4650 0    50   ~ 0
+vout
+Text Label 8700 5950 0    50   ~ 0
+virtual_gnd
+Text Label 3350 1200 0    50   ~ 0
+9V
+Text Label 4200 1300 0    50   ~ 0
+9V_switched
+Text Label 7200 1550 1    50   ~ 0
+led_high
+Wire Wire Line
+	7200 1200 7200 1600
+$Comp
+L Sensor_Current:ACS730xLCTR-40AB U1
+U 1 1 5F43380D
+P 2600 4350
+F 0 "U1" H 2850 4600 50  0000 C CNN
+F 1 "ACS730xLCTR-40AB" H 2100 4600 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1300 4750 1300
+$Comp
+L power:GND #PWR0116
+U 1 1 5F456228
+P 3500 1400
+F 0 "#PWR0116" H 3500 1150 50  0001 C CNN
+F 1 "GND" H 3505 1227 50  0000 C CNN
+F 2 "" H 3500 1400 50  0001 C CNN
+F 3 "" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1400 3500 1300
+Wire Wire Line
+	3500 1300 3600 1300
+Wire Wire Line
+	4400 3350 4400 4350
+$Comp
+L Switch_gkeeth:OS103011MA7QP1 SW2
+U 1 1 5F2627B8
+P 4850 3350
+F 0 "SW2" H 4850 3633 50  0000 C CNN
+F 1 "OS103011MA7QP1" H 4850 3542 50  0000 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 4225 3525 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 4225 3525 50  0001 C CNN
+	1    4850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5F47592F
+P 4550 3500
+F 0 "#PWR0117" H 4550 3250 50  0001 C CNN
+F 1 "GND" H 4555 3327 50  0000 C CNN
+F 2 "" H 4550 3500 50  0001 C CNN
+F 3 "" H 4550 3500 50  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3500 4550 3450
+Wire Wire Line
+	4550 3450 4600 3450
+$Comp
+L power:GND #PWR0118
+U 1 1 5F495411
+P 6500 3500
+F 0 "#PWR0118" H 6500 3250 50  0001 C CNN
+F 1 "GND" H 6505 3327 50  0000 C CNN
+F 2 "" H 6500 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3500 6500 3450
+Wire Wire Line
+	6500 3450 6550 3450
 $EndSCHEMATC
