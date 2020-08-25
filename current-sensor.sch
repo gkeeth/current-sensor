@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Sensor"
-Date "2020-06-30"
+Date "2020-08-24"
 Rev "0"
 Comp "G. Keeth"
 Comment1 ""

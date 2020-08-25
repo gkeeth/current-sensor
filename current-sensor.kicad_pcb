@@ -9,7 +9,14 @@
     (nets 25)
   )
 
-  (page A4)
+  (page A)
+  (title_block
+    (title "Current Sensor")
+    (date 2020-08-24)
+    (rev 0)
+    (company "G. Keeth")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -60,7 +67,7 @@
     (pad_to_mask_clearance 0.05)
     (aux_axis_origin 100 100)
     (grid_origin 100 100)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFDFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
