@@ -38,17 +38,6 @@ $EndComp
 Wire Wire Line
 	2600 4650 2600 4750
 $Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J4
-U 1 1 5EFBA6AD
-P 2950 1200
-F 0 "J4" H 2900 1200 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 2900 1100 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2950 1200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2950 1200 50  0001 C CNN
-	1    2950 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0102
 U 1 1 5EFBEFD8
 P 6300 1200
@@ -972,4 +961,15 @@ Wire Wire Line
 	6500 3500 6500 3450
 Wire Wire Line
 	6500 3450 6550 3450
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J4
+U 1 1 5EFBA6AD
+P 2950 1200
+F 0 "J4" H 2900 1200 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 2900 1100 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2950 1200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2950 1200 50  0001 C CNN
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
