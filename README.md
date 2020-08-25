@@ -3,6 +3,12 @@ Hall effect current sensor board. Invasive (connected in series with DUT), with 
 
 Designed to fit in Hammond 1593W enclosure. Includes PCBs for front and back panels.
 
+
+![schematic](img/current-sensor.svg)
+![layout](img/layout.png)
+![front render](img/render_front.png)
+![back render](img/render_back.png)
+
 Licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
