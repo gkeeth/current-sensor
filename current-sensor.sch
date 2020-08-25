@@ -64,18 +64,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0103
 U 1 1 5EFC0FA6
-P 3250 1400
-F 0 "#PWR0103" H 3250 1150 50  0001 C CNN
-F 1 "GND" H 3255 1227 50  0000 C CNN
-F 2 "" H 3250 1400 50  0001 C CNN
-F 3 "" H 3250 1400 50  0001 C CNN
-	1    3250 1400
+P 2600 1400
+F 0 "#PWR0103" H 2600 1150 50  0001 C CNN
+F 1 "GND" H 2605 1227 50  0000 C CNN
+F 2 "" H 2600 1400 50  0001 C CNN
+F 3 "" H 2600 1400 50  0001 C CNN
+	1    2600 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 1400 3250 1300
-Wire Wire Line
-	3250 1300 3150 1300
 $Comp
 L Device:C C8
 U 1 1 5EFC2016
@@ -762,7 +758,7 @@ F 3 "~" H 5950 1500 50  0001 C CNN
 $EndComp
 NoConn ~ 4100 1100
 Wire Wire Line
-	3150 1200 3600 1200
+	2350 1200 3600 1200
 Connection ~ 4750 1300
 $Comp
 L Connector:Conn_Coaxial J3
@@ -848,7 +844,7 @@ Wire Wire Line
 	7200 1700 7200 1900
 Text Notes 7500 1850 0    50   ~ 10
 to front-panel power LED
-Text Notes 2400 1450 0    50   ~ 10
+Text Notes 1900 1450 0    50   ~ 10
 to 9V battery
 $Comp
 L Graphic_gkeeth:Logo_MadeWithKiCad LOGO2
@@ -962,12 +958,31 @@ Wire Wire Line
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J4
 U 1 1 5EFBA6AD
-P 2950 1200
-F 0 "J4" H 2900 1200 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 2900 1100 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2950 1200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2950 1200 50  0001 C CNN
-	1    2950 1200
+P 2150 1200
+F 0 "J4" H 2100 1200 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 2100 1100 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2150 1200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2150 1200 50  0001 C CNN
+	1    2150 1200
 	1    0    0    -1  
 $EndComp
+NoConn ~ -2000 9000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F4DA91F
+P 2650 1300
+F 0 "#FLG0102" H 2650 1375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2650 1428 50  0000 L CNN
+F 2 "" H 2650 1300 50  0001 C CNN
+F 3 "~" H 2650 1300 50  0001 C CNN
+	1    2650 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1300 2350 1300
+Wire Wire Line
+	2600 1400 2600 1300
+Connection ~ 2600 1300
+Wire Wire Line
+	2650 1300 2600 1300
 $EndSCHEMATC
