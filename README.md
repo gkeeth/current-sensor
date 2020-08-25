@@ -5,7 +5,7 @@ Designed to fit in Hammond 1593W enclosure. Includes PCBs for front and back pan
 
 WORK IN PROGRESS
 
-##Specifications:
+## Specifications:
 - Output: 0-5V, DC-coupled
 - Maximum input current: +/-40A. Different current limits are possible by
 selecting a different version of the ACS730 Hall effect IC (also changes sensitivity)
