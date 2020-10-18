@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Sensor"
-Date "2020-08-24"
+Date "2020-10-17"
 Rev "0"
 Comp "G. Keeth"
 Comment1 ""
@@ -290,12 +290,12 @@ Wire Wire Line
 $Comp
 L Device:C_Small C1
 U 1 1 5EFE9D19
-P 7350 2950
-F 0 "C1" V 7121 2950 50  0000 C CNN
-F 1 "150p" V 7212 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 2950 50  0001 C CNN
-F 3 "~" H 7350 2950 50  0001 C CNN
-	1    7350 2950
+P 7350 3750
+F 0 "C1" V 7121 3750 50  0000 C CNN
+F 1 "150p" V 7212 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 3750 50  0001 C CNN
+F 3 "~" H 7350 3750 50  0001 C CNN
+	1    7350 3750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -312,12 +312,12 @@ $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5EFEA97C
-P 7350 3750
-F 0 "C3" V 7121 3750 50  0000 C CNN
-F 1 "15n" V 7212 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 3750 50  0001 C CNN
-F 3 "~" H 7350 3750 50  0001 C CNN
-	1    7350 3750
+P 7350 2950
+F 0 "C3" V 7121 2950 50  0000 C CNN
+F 1 "15n" V 7212 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 2950 50  0001 C CNN
+F 3 "~" H 7350 2950 50  0001 C CNN
+	1    7350 2950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -435,11 +435,11 @@ Text Notes 5850 3350 0    50   ~ 0
 10X
 Text Notes 5850 3700 0    50   ~ 0
 100X
-Text Notes 7600 2950 0    50   ~ 0
+Text Notes 7600 3750 0    50   ~ 0
 100kHz
 Text Notes 7600 3350 0    50   ~ 0
 10kHz
-Text Notes 7600 3750 0    50   ~ 0
+Text Notes 7600 2950 0    50   ~ 0
 1kHz
 Wire Wire Line
 	7550 3350 7550 3750
