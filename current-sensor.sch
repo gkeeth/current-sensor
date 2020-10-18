@@ -884,17 +884,6 @@ Text Label 7200 1550 1    50   ~ 0
 led_high
 Wire Wire Line
 	7200 1200 7200 1600
-$Comp
-L Sensor_Current:ACS730xLCTR-40AB U1
-U 1 1 5F43380D
-P 2600 4350
-F 0 "U1" H 2850 4600 50  0000 C CNN
-F 1 "ACS730xLCTR-40AB" H 2100 4600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
-	1    2600 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 1300 4750 1300
 $Comp
@@ -985,4 +974,21 @@ Wire Wire Line
 Connection ~ 2600 1300
 Wire Wire Line
 	2650 1300 2600 1300
+$Comp
+L Sensor_Current:ACS730xLCTR-20AB U1
+U 1 1 5F8C5B53
+P 2600 4350
+F 0 "U1" H 2850 4600 50  0000 C CNN
+F 1 "ACS730xLCTR-20AB" H 2100 4600 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 4450 0    50   ~ 0
+100mV/A
+Text Notes 1650 4350 0    50   ~ 0
++/- 20A
+Text Notes 9450 4900 0    50   ~ 0
+gain x 100mV/A
 $EndSCHEMATC
