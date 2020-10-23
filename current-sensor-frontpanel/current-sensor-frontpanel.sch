@@ -101,4 +101,15 @@ F 3 "~" H 5800 6950 50  0001 C CNN
 	1    5800 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Panel_Cutouts:Panel_Cutout C6
+U 1 1 5F936590
+P 3100 4350
+F 0 "C6" H 3778 4171 50  0000 L CNN
+F 1 "Front Panel Label" H 3778 4080 50  0000 L CNN
+F 2 "current-sensor:frontpanel" H 3100 4350 50  0001 C CNN
+F 3 "" H 3100 4350 50  0001 C CNN
+	1    3100 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
