@@ -1,23 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x01_Female
-#
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Creative_Commons_CC-BY-SA_0.5in
 #
 DEF Creative_Commons_CC-BY-SA_0.5in LOGO 0 40 Y Y 1 F N
@@ -60,6 +43,21 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 50 39 0 0 0 "Made With KiCad" Normal 0 C C
 S -250 0 250 100 0 0 0 f
+ENDDRAW
+ENDDEF
+#
+# Panel_Cutouts_Panel_Cutout
+#
+DEF Panel_Cutouts_Panel_Cutout C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V L CNN
+F1 "Panel_Cutouts_Panel_Cutout" 0 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Panel_*
+$ENDFPLIST
+DRAW
+S 0 -50 650 -400 0 1 0 f
 ENDDRAW
 ENDDEF
 #

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "current-sensor Back Panel"
+Date "2020-10-25"
+Rev "0"
+Comp "G. Keeth"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -22,32 +22,6 @@ F 1 "CC-BY-SA_0.5in" H 4250 7070 60  0001 C CNN
 F 2 "Symbol_CreativeCommons:CC-BY-SA_SilkScreenTop_Small" H 4250 6850 50  0001 C CNN
 F 3 "" H 4250 6850 50  0001 C CNN
 	1    4250 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 5F307A67
-P 4650 3650
-F 0 "J1" H 4678 3676 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 3585 50  0000 L CNN
-F 2 "Panel_Cutouts:BindingPost_Pomona_3750_3760_3770" H 4650 3650 50  0001 C CNN
-F 3 "~" H 4650 3650 50  0001 C CNN
-F 4 "Pomona" H 4650 3650 50  0001 C CNN "Manufacturer"
-F 5 "3760-4" H 4650 3650 50  0001 C CNN "Manufacturer PN"
-	1    4650 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 5F308475
-P 4650 3850
-F 0 "J2" H 4678 3876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 3785 50  0000 L CNN
-F 2 "Panel_Cutouts:BindingPost_Pomona_3750_3760_3770" H 4650 3850 50  0001 C CNN
-F 3 "~" H 4650 3850 50  0001 C CNN
-F 4 "Pomona" H 4650 3850 50  0001 C CNN "Manufacturer"
-F 5 "3760-4" H 4650 3850 50  0001 C CNN "Manufacturer PN"
-	1    4650 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -70,6 +44,39 @@ F 1 "Logo_MadeWithKiCad" H 4000 7650 50  0001 C CNN
 F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4000 7650 50  0001 C CNN
 F 3 "" H 4000 7650 50  0001 C CNN
 	1    4000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Panel_Cutouts:Panel_Cutout C1
+U 1 1 5F95E7A6
+P 3450 4150
+F 0 "C1" H 4128 3971 50  0000 L CNN
+F 1 "CalTest_CT2232-4" H 4128 3880 50  0000 L CNN
+F 2 "Panel_Cutouts:Panel_BindingPost_CalTest_CT2232-x" H 3450 4150 50  0001 C CNN
+F 3 "" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Panel_Cutouts:Panel_Cutout C2
+U 1 1 5F95EB1D
+P 3450 4600
+F 0 "C2" H 4128 4421 50  0000 L CNN
+F 1 "CalTest_CT2232-4" H 4128 4330 50  0000 L CNN
+F 2 "Panel_Cutouts:Panel_BindingPost_CalTest_CT2232-x" H 3450 4600 50  0001 C CNN
+F 3 "" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Panel_Cutouts:Panel_Cutout C3
+U 1 1 5F96214B
+P 3450 5050
+F 0 "C3" H 4128 4871 50  0000 L CNN
+F 1 "Front Panel Label" H 4128 4780 50  0000 L CNN
+F 2 "current-sensor:backpanel" H 3450 5050 50  0001 C CNN
+F 3 "" H 3450 5050 50  0001 C CNN
+	1    3450 5050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
