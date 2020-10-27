@@ -1,4 +1,4 @@
-NAMES   := frontpanel backpanel
+NAMES   := frontpanel backpanel frontpanel_36A
 SOURCES := $(addsuffix .svg, $(NAMES))
 TARGETS := $(addsuffix .kicad_mod, $(NAMES))
 
