@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Sensor"
-Date "2020-10-17"
-Rev "0"
+Date "2020-12-07"
+Rev "1"
 Comp "G. Keeth"
 Comment1 ""
 Comment2 ""
@@ -177,7 +177,7 @@ U 1 1 5EFCC049
 P 8050 4650
 F 0 "U3" H 8050 4900 50  0000 L CNN
 F 1 "AD8616xRM" H 8050 4800 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8150 4650 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 8300 4800 50  0001 C CNN
 	1    8050 4650
 	1    0    0    -1  
@@ -198,7 +198,7 @@ L Device:R R8
 U 1 1 5EFD8C6E
 P 7200 1050
 F 0 "R8" H 7270 1096 50  0000 L CNN
-F 1 "3.3k" H 7270 1005 50  0000 L CNN
+F 1 "2.2k" H 7270 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 1050 50  0001 C CNN
 F 3 "~" H 7200 1050 50  0001 C CNN
 	1    7200 1050
@@ -234,7 +234,7 @@ U 2 1 5EFDF0B3
 P 7000 4550
 F 0 "U2" H 7000 4700 50  0000 L CNN
 F 1 "AD8616xRM" H 7000 4800 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7100 4550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7100 4550 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 7250 4700 50  0001 C CNN
 	2    7000 4550
 	1    0    0    1   
@@ -245,7 +245,7 @@ U 1 1 5EFDFC51
 P 5200 4450
 F 0 "U2" H 5200 4200 50  0000 L CNN
 F 1 "AD8616xRM" H 5200 4300 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5300 4450 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 4450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 5450 4600 50  0001 C CNN
 	1    5200 4450
 	1    0    0    1   
@@ -455,7 +455,7 @@ U 2 1 5F06F892
 P 4300 5950
 F 0 "U3" H 4300 6200 50  0000 L CNN
 F 1 "AD8616xRM" H 4300 6100 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4400 5950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4400 5950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 4550 6100 50  0001 C CNN
 	2    4300 5950
 	1    0    0    -1  
@@ -517,7 +517,7 @@ U 3 1 5F10C671
 P 5100 4450
 F 0 "U2" H 5158 4496 50  0001 L CNN
 F 1 "AD8616xRM" H 5158 4405 50  0001 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5200 4450 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 4450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 5350 4600 50  0001 C CNN
 	3    5100 4450
 	1    0    0    -1  
@@ -528,7 +528,7 @@ U 3 1 5F10CA04
 P 4200 5950
 F 0 "U3" H 4258 5996 50  0001 L CNN
 F 1 "AD8616xRM" H 4258 5905 50  0001 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4300 5950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4300 5950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 4450 6100 50  0001 C CNN
 	3    4200 5950
 	1    0    0    -1  
