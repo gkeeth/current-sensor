@@ -179,6 +179,10 @@ F 0 "U3" H 8050 4900 50  0000 L CNN
 F 1 "AD8616xRM" H 8050 4800 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 8300 4800 50  0001 C CNN
+F 4 "Digikey" H 8050 4650 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 8050 4650 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 8050 4650 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 8050 4650 50  0001 C CNN "Manufacturer PN"
 	1    8050 4650
 	1    0    0    -1  
 $EndComp
@@ -236,6 +240,10 @@ F 0 "U2" H 7000 4700 50  0000 L CNN
 F 1 "AD8616xRM" H 7000 4800 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7100 4550 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 7250 4700 50  0001 C CNN
+F 4 "Digikey" H 7000 4550 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 7000 4550 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 7000 4550 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 7000 4550 50  0001 C CNN "Manufacturer PN"
 	2    7000 4550
 	1    0    0    1   
 $EndComp
@@ -247,6 +255,10 @@ F 0 "U2" H 5200 4200 50  0000 L CNN
 F 1 "AD8616xRM" H 5200 4300 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 4450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 5450 4600 50  0001 C CNN
+F 4 "Digikey" H 5200 4450 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 5200 4450 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 5200 4450 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 5200 4450 50  0001 C CNN "Manufacturer PN"
 	1    5200 4450
 	1    0    0    1   
 $EndComp
@@ -457,6 +469,10 @@ F 0 "U3" H 4300 6200 50  0000 L CNN
 F 1 "AD8616xRM" H 4300 6100 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4400 5950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 4550 6100 50  0001 C CNN
+F 4 "Digikey" H 4300 5950 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 4300 5950 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 4300 5950 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 4300 5950 50  0001 C CNN "Manufacturer PN"
 	2    4300 5950
 	1    0    0    -1  
 $EndComp
@@ -519,6 +535,10 @@ F 0 "U2" H 5158 4496 50  0001 L CNN
 F 1 "AD8616xRM" H 5158 4405 50  0001 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 4450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 5350 4600 50  0001 C CNN
+F 4 "Digikey" H 5100 4450 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 5100 4450 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 5100 4450 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 5100 4450 50  0001 C CNN "Manufacturer PN"
 	3    5100 4450
 	1    0    0    -1  
 $EndComp
@@ -530,6 +550,10 @@ F 0 "U3" H 4258 5996 50  0001 L CNN
 F 1 "AD8616xRM" H 4258 5905 50  0001 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4300 5950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf" H 4450 6100 50  0001 C CNN
+F 4 "Digikey" H 4200 5950 50  0001 C CNN "Distributor"
+F 5 "AD8616ARZ-REEL7CT-ND" H 4200 5950 50  0001 C CNN "Distributor PN"
+F 6 "Analog Devices" H 4200 5950 50  0001 C CNN "Manufacturer"
+F 7 "AD8616ARZ-REEL7" H 4200 5950 50  0001 C CNN "Manufacturer PN"
 	3    4200 5950
 	1    0    0    -1  
 $EndComp
@@ -705,6 +729,10 @@ F 0 "U4" H 5450 1925 50  0000 C CNN
 F 1 "NCP718ASN500" H 5450 1834 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 5450 1900 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 5450 1600 50  0001 C CNN
+F 4 "Digikey" H 5450 1500 50  0001 C CNN "Distributor"
+F 5 "NCP718ASN500T1GOSCT-ND" H 5450 1500 50  0001 C CNN "Distributor PN"
+F 6 "ON Semi" H 5450 1500 50  0001 C CNN "Manufacturer"
+F 7 "NCP718ASN500T1G" H 5450 1500 50  0001 C CNN "Manufacturer PN"
 	1    5450 1500
 	1    0    0    -1  
 $EndComp
@@ -768,6 +796,10 @@ F 0 "J3" H 9450 4625 50  0000 L CNN
 F 1 "0731000105" H 9450 4534 50  0000 L CNN
 F 2 "Connector_Coaxial_gkeeth:BNC_Molex_73100-0105_Horizontal" H 9350 4650 50  0001 C CNN
 F 3 " ~" H 9350 4650 50  0001 C CNN
+F 4 "Digikey" H 9350 4650 50  0001 C CNN "Distributor"
+F 5 "WM5524-ND" H 9350 4650 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9350 4650 50  0001 C CNN "Manufacturer"
+F 7 "0731000105" H 9350 4650 50  0001 C CNN "Manufacturer PN"
 	1    9350 4650
 	1    0    0    -1  
 $EndComp
@@ -785,6 +817,10 @@ F 0 "J1" H 1200 4300 50  0000 R CNN
 F 1 "‎0197134001‎" H 1200 4200 50  0000 R CNN
 F 2 "Connector_Molex_Quixon:Connector_Molex_Quixon_19713-4001_1x01_Horizontal" H 1250 4250 50  0001 C CNN
 F 3 "~" H 1250 4250 50  0001 C CNN
+F 4 "Digikey" H 1250 4250 50  0001 C CNN "Distributor"
+F 5 "WM7391-ND" H 1250 4250 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1250 4250 50  0001 C CNN "Manufacturer"
+F 7 "0197134001" H 1250 4250 50  0001 C CNN "Manufacturer PN"
 	1    1250 4250
 	1    0    0    -1  
 $EndComp
@@ -800,6 +836,10 @@ F 0 "J2" H 1200 4500 50  0000 R CNN
 F 1 "‎0197134001‎" H 1200 4400 50  0000 R CNN
 F 2 "Connector_Molex_Quixon:Connector_Molex_Quixon_19713-4001_1x01_Horizontal" H 1250 4450 50  0001 C CNN
 F 3 "~" H 1250 4450 50  0001 C CNN
+F 4 "Digikey" H 1250 4450 50  0001 C CNN "Distributor"
+F 5 "WM7391-ND" H 1250 4450 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1250 4450 50  0001 C CNN "Manufacturer"
+F 7 "0197134001" H 1250 4450 50  0001 C CNN "Manufacturer PN"
 	1    1250 4450
 	1    0    0    -1  
 $EndComp
@@ -811,6 +851,10 @@ F 0 "SW1" H 3850 1485 50  0000 C CNN
 F 1 "PN12SHNA03QE" H 3850 1394 50  0000 C CNN
 F 2 "Button_Switch_THT_gkeeth:SW_Push_SPDT_CK_PN1xSxxx03QE" H 3850 1200 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 3850 1200 50  0001 C CNN
+F 4 "Digikey" H 3850 1200 50  0001 C CNN "Distributor"
+F 5 "CKN1189-ND" H 3850 1200 50  0001 C CNN "Distributor PN"
+F 6 "C&K" H 3850 1200 50  0001 C CNN "Manufacturer"
+F 7 "PN12SHNA03QE" H 3850 1200 50  0001 C CNN "Manufacturer PN"
 	1    3850 1200
 	1    0    0    -1  
 $EndComp
@@ -822,6 +866,10 @@ F 0 "SW3" H 6800 3633 50  0000 C CNN
 F 1 "OS103011MA7QP1" H 6800 3542 50  0000 C CNN
 F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 6175 3525 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 6175 3525 50  0001 C CNN
+F 4 "Digikey" H 6800 3350 50  0001 C CNN "Distributor"
+F 5 "CKN9561-ND" H 6800 3350 50  0001 C CNN "Distributor PN"
+F 6 "C&K" H 6800 3350 50  0001 C CNN "Manufacturer"
+F 7 "OS103011MA7QP1" H 6800 3350 50  0001 C CNN "Manufacturer PN"
 	1    6800 3350
 	1    0    0    -1  
 $EndComp
@@ -833,6 +881,10 @@ F 0 "J5" H 7472 1574 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 7472 1483 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 7500 1600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7500 1600 50  0001 C CNN
+F 4 "Digikey" H 7500 1600 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 7500 1600 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 7500 1600 50  0001 C CNN "Manufacturer"
+F 7 "0705430001" H 7500 1600 50  0001 C CNN "Manufacturer PN"
 	1    7500 1600
 	-1   0    0    -1  
 $EndComp
@@ -911,6 +963,10 @@ F 0 "SW2" H 4850 3633 50  0000 C CNN
 F 1 "OS103011MA7QP1" H 4850 3542 50  0000 C CNN
 F 2 "Button_Switch_THT_gkeeth:SW_Slide_SP3T_CK_OS103011MA7QP1" H 4225 3525 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 4225 3525 50  0001 C CNN
+F 4 "Digikey" H 4850 3350 50  0001 C CNN "Distributor"
+F 5 "CKN9561-ND" H 4850 3350 50  0001 C CNN "Distributor PN"
+F 6 "C&K" H 4850 3350 50  0001 C CNN "Manufacturer"
+F 7 "OS103011MA7QP1" H 4850 3350 50  0001 C CNN "Manufacturer PN"
 	1    4850 3350
 	1    0    0    -1  
 $EndComp
@@ -952,6 +1008,10 @@ F 0 "J4" H 2100 1200 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 2100 1100 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2150 1200 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2150 1200 50  0001 C CNN
+F 4 "Digikey" H 2150 1200 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 2150 1200 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 2150 1200 50  0001 C CNN "Manufacturer"
+F 7 "0705430001" H 2150 1200 50  0001 C CNN "Manufacturer PN"
 	1    2150 1200
 	1    0    0    -1  
 $EndComp
@@ -982,6 +1042,10 @@ F 0 "U1" H 2850 4600 50  0000 C CNN
 F 1 "ACS730xLCTR-20AB" H 2100 4600 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2950 4250 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 2600 4350 50  0001 C CNN
+F 4 "Digikey" H 2600 4350 50  0001 C CNN "Distributor"
+F 5 "620-1792-1-ND" H 2600 4350 50  0001 C CNN "Distributor PN"
+F 6 "Allegro Microsystems" H 2600 4350 50  0001 C CNN "Manufacturer"
+F 7 "ACS730KLCTR-20AB-T" H 2600 4350 50  0001 C CNN "Manufacturer PN"
 	1    2600 4350
 	1    0    0    -1  
 $EndComp
