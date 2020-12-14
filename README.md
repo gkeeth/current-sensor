@@ -17,12 +17,19 @@ selecting a different version of the ACS730 Hall effect IC (also changes sensiti
 - Bandwidth: selectable between 1kHz, 10kHz, and 100kHz
 - Power supply: 9V battery
 
+## Schematic:
+[PDF of schematic](pdf/current-sensor.pdf)
 ![schematic](img/current-sensor.svg)
+
+## Layout:
 ![layout](img/layout.png)
+
+## Front/Rear Panel and Assembly:
 ![front panel](img/render_frontpanel.png)
 ![back panel](img/render_backpanel.png)
 ![front render](img/render_overview.png)
 
+## License:
 Licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
