@@ -28,6 +28,10 @@ _autosave-*
 # caches (regenerated on load)
 fp-info-cache
 
+# gerber zips
+fab/*.zip
+*/fab*/*.zip
+
 # proprietary 3d models
 mechanical/bnc/*
 mechanical/SW_Push_SPDT_CK_PN1xSxxx03QE.*
