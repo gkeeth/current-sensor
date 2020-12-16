@@ -40,7 +40,6 @@ connectors as appropriate.
 | 2        | Cal Test     | CT2232-4         | Digikey     | BKCT2232-4-ND  | binding posts        |
 | 1        | C&K          | G003G            | Digikey     | 401-1205-ND    | power button cap     |
 | 1        | Lumex        | SSI-LXH312ID-150 | Digikey     | 67-1190-ND     | power LED            |
-| 1        | Lumex        | SSI-LXH312ID-150 | Digikey     | 67-1190-ND     | power LED            |
 | 2        | Molex        | 0190050010       | Digikey     | WM18241-ND     | QC connectors        |
 | 4        | Molex        | 0016020097       | Digikey     | WM2513-ND      | SL crimp terminals for LED and battery |
 | 2        | Molex        | 0050579402       | Digikey     | WM2900-ND      | SL crimp housings for LED and battery  |
