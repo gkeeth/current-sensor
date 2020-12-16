@@ -27,7 +27,7 @@ selecting a different version of the ACS730 Hall effect IC (also changes sensiti
 ## BOM:
 [BOM for main board](bom/current-sensor.csv)
 
-# Additional components:
+### Additional components:
 Note that the board was designed with Molex SL crimp terminals for the LED and 9V battery,
 but those connections could be done with another crimp family or even soldered. Substitute
 connectors as appropriate.
