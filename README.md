@@ -24,6 +24,28 @@ selecting a different version of the ACS730 Hall effect IC (also changes sensiti
 ## Layout:
 ![layout](img/layout.png)
 
+## BOM:
+[BOM for main board](bom/current-sensor.csv)
+
+# Additional components:
+Note that the board was designed with Molex SL crimp terminals for the LED and 9V battery,
+but those connections could be done with another crimp family or even soldered. Substitute
+connectors as appropriate.
+
+| Quantity | Manufacturer | Manufacturer PN  | Distributor | Distributor PN | Notes                |
+| -------- | ------------ | ---------------- | ----------- | -------------- | -------------------- |
+| 1        | Hammond      | 1593WBK          | Digikey     | 164-1593WBK-ND | case                 |
+| 1        | Hammond      | 1593ATS50        | Digikey     | HM1442-ND      | PCB mounting screws  |
+| 1        | MPD          | BH9VW            | Digikey     | BH9VW-ND       | battery holder       |
+| 2        | Cal Test     | CT2232-4         | Digikey     | BKCT2232-4-ND  | binding posts        |
+| 1        | C&K          | G003G            | Digikey     | 401-1205-ND    | power button cap     |
+| 1        | Lumex        | SSI-LXH312ID-150 | Digikey     | 67-1190-ND     | power LED            |
+| 1        | Lumex        | SSI-LXH312ID-150 | Digikey     | 67-1190-ND     | power LED            |
+| 2        | Molex        | 0190050010       | Digikey     | WM18241-ND     | QC connectors        |
+| 4        | Molex        | 0016020097       | Digikey     | WM2513-ND      | SL crimp terminals for LED and battery |
+| 2        | Molex        | 0050579402       | Digikey     | WM2900-ND      | SL crimp housings for LED and battery  |
+
+
 ## Front/Rear Panel and Assembly:
 ![front panel](img/render_frontpanel.png)
 ![back panel](img/render_backpanel.png)
