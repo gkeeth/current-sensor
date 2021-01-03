@@ -23,7 +23,6 @@ _autosave-*
 
 # Exported BOM files
 *.xml
-*.csv
 
 # caches (regenerated on load)
 fp-info-cache
