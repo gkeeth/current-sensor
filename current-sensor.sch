@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Sensor"
-Date "2020-12-07"
-Rev "1"
+Date "2021-01-03"
+Rev "2"
 Comp "G. Keeth"
 Comment1 ""
 Comment2 ""
@@ -100,27 +100,27 @@ Connection ~ 5950 1300
 $Comp
 L Device:C C5
 U 1 1 5EFC8D89
-P 3100 6250
-F 0 "C5" H 3215 6296 50  0000 L CNN
-F 1 "1n" H 3215 6205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 6100 50  0001 C CNN
-F 3 "~" H 3100 6250 50  0001 C CNN
-	1    3100 6250
+P 3100 4700
+F 0 "C5" H 3215 4746 50  0000 L CNN
+F 1 "1n" H 3215 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4550 50  0001 C CNN
+F 3 "~" H 3100 4700 50  0001 C CNN
+	1    3100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5EFC981E
-P 3100 6450
-F 0 "#PWR0105" H 3100 6200 50  0001 C CNN
-F 1 "GND" H 3105 6277 50  0000 C CNN
-F 2 "" H 3100 6450 50  0001 C CNN
-F 3 "" H 3100 6450 50  0001 C CNN
-	1    3100 6450
+P 3100 4950
+F 0 "#PWR0105" H 3100 4700 50  0001 C CNN
+F 1 "GND" H 3105 4777 50  0000 C CNN
+F 2 "" H 3100 4950 50  0001 C CNN
+F 3 "" H 3100 4950 50  0001 C CNN
+	1    3100 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 6400 3100 6450
+	3100 4850 3100 4950
 $Comp
 L Device:C C4
 U 1 1 5EFCA932
@@ -167,7 +167,7 @@ Wire Wire Line
 Connection ~ 2600 4000
 Wire Wire Line
 	3000 4450 3100 4450
-Text Notes 3200 5850 0    50   ~ 0
+Text Notes 3300 4550 0    50   ~ 0
 2.5V
 Text Notes 3600 4350 0    50   ~ 0
 0V - 5V
@@ -517,13 +517,6 @@ Wire Wire Line
 	4700 5950 4800 5950
 Wire Wire Line
 	4000 4350 3000 4350
-Wire Wire Line
-	3100 4450 3100 5850
-Wire Wire Line
-	4000 5850 3100 5850
-Connection ~ 3100 5850
-Wire Wire Line
-	3100 5850 3100 6100
 Wire Wire Line
 	5900 4450 5800 4450
 Connection ~ 5800 4450
@@ -1015,7 +1008,6 @@ F 7 "0705430001" H 2150 1200 50  0001 C CNN "Manufacturer PN"
 	1    2150 1200
 	1    0    0    -1  
 $EndComp
-NoConn ~ -2000 9000
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5F4DA91F
@@ -1055,4 +1047,114 @@ Text Notes 1650 4350 0    50   ~ 0
 +/- 20A
 Text Notes 9450 4900 0    50   ~ 0
 gain x 100mV/A
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5FF299EA
+P 2850 5850
+F 0 "RV1" H 2781 5896 50  0000 R CNN
+F 1 "100k" H 2781 5805 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 2850 5850 50  0001 C CNN
+F 3 "~" H 2850 5850 50  0001 C CNN
+F 4 "Vishay Svernice" H 2850 5850 50  0001 C CNN "Manufacturer"
+F 5 "TS53YL104MR10" H 2850 5850 50  0001 C CNN "Manufacturer PN"
+	1    2850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5FF2A0C5
+P 2850 6050
+F 0 "#PWR0119" H 2850 5800 50  0001 C CNN
+F 1 "GND" H 2855 5877 50  0000 C CNN
+F 2 "" H 2850 6050 50  0001 C CNN
+F 3 "" H 2850 6050 50  0001 C CNN
+	1    2850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 5FF2A4DA
+P 2850 5650
+F 0 "#PWR0120" H 2850 5500 50  0001 C CNN
+F 1 "+5V" H 2865 5823 50  0000 C CNN
+F 2 "" H 2850 5650 50  0001 C CNN
+F 3 "" H 2850 5650 50  0001 C CNN
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5FF35394
+P 3250 5850
+F 0 "R10" V 3043 5850 50  0000 C CNN
+F 1 "1M" V 3134 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 5850 50  0001 C CNN
+F 3 "~" H 3250 5850 50  0001 C CNN
+	1    3250 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 5850 3100 5850
+$Comp
+L Device:R R9
+U 1 1 5FF44480
+P 3500 5350
+F 0 "R9" H 3430 5304 50  0000 R CNN
+F 1 "33k" H 3430 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 5350 50  0001 C CNN
+F 3 "~" H 3500 5350 50  0001 C CNN
+	1    3500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 4450 3500 4450
+Wire Wire Line
+	3500 4450 3500 5200
+Connection ~ 3100 4450
+Wire Wire Line
+	3100 4450 3100 4550
+Wire Wire Line
+	3400 5850 3500 5850
+Wire Wire Line
+	3500 5850 3500 5500
+Wire Wire Line
+	3500 5850 3650 5850
+Connection ~ 3500 5850
+Text Notes 800  6850 0    50   ~ 0
+Zero Current Offset Trim Procedure:\n1. set 1x gain\n2. apply zero current (open circuit at current terminals)\n3. adjust trimmer until zero-current voltage (BNC output)\n   and BNC ground are the same\n4. increase gain to 10x/100x and fine-tune adjustment
+Text Notes 1600 5850 0    50   ~ 0
++/- 80mV offset adjust
+Wire Wire Line
+	2850 5700 2850 5650
+Wire Wire Line
+	2850 6000 2850 6050
+$Comp
+L Device:C C10
+U 1 1 5FFA0B84
+P 3650 6100
+F 0 "C10" H 3535 6146 50  0000 R CNN
+F 1 "100n" H 3535 6055 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 5950 50  0001 C CNN
+F 3 "~" H 3650 6100 50  0001 C CNN
+	1    3650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5FFA1B93
+P 3650 6300
+F 0 "#PWR01" H 3650 6050 50  0001 C CNN
+F 1 "GND" H 3655 6127 50  0000 C CNN
+F 2 "" H 3650 6300 50  0001 C CNN
+F 3 "" H 3650 6300 50  0001 C CNN
+	1    3650 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6300 3650 6250
+Wire Wire Line
+	3650 5950 3650 5850
+Connection ~ 3650 5850
+Wire Wire Line
+	3650 5850 4000 5850
 $EndSCHEMATC
