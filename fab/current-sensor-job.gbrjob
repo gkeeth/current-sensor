@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.8"
+      "Version":     "5.1.10"
     },
-    "CreationDate":  "2020-12-07T23:56:31-05:00"
+    "CreationDate":  "2021-08-22T21:12:58-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "current-sensor",
       "GUID": "63757272-656e-4742-9d73-656e736f722e",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size":
     {
