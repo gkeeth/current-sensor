@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Sensor"
-Date "2021-01-03"
+Date "2021-08-22"
 Rev "2"
 Comp "G. Keeth"
 Comment1 ""
@@ -98,29 +98,18 @@ Wire Wire Line
 	6300 1300 6300 1200
 Connection ~ 5950 1300
 $Comp
-L Device:C C5
-U 1 1 5EFC8D89
-P 3100 4700
-F 0 "C5" H 3215 4746 50  0000 L CNN
-F 1 "1n" H 3215 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4550 50  0001 C CNN
-F 3 "~" H 3100 4700 50  0001 C CNN
-	1    3100 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 5EFC981E
-P 3100 4950
-F 0 "#PWR0105" H 3100 4700 50  0001 C CNN
-F 1 "GND" H 3105 4777 50  0000 C CNN
-F 2 "" H 3100 4950 50  0001 C CNN
-F 3 "" H 3100 4950 50  0001 C CNN
-	1    3100 4950
+P 3100 4850
+F 0 "#PWR0105" H 3100 4600 50  0001 C CNN
+F 1 "GND" H 3105 4677 50  0000 C CNN
+F 2 "" H 3100 4850 50  0001 C CNN
+F 3 "" H 3100 4850 50  0001 C CNN
+	1    3100 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 4850 3100 4950
+	3100 4800 3100 4850
 $Comp
 L Device:C C4
 U 1 1 5EFCA932
@@ -167,8 +156,6 @@ Wire Wire Line
 Connection ~ 2600 4000
 Wire Wire Line
 	3000 4450 3100 4450
-Text Notes 3300 4550 0    50   ~ 0
-2.5V
 Text Notes 3600 4350 0    50   ~ 0
 0V - 5V
 $Comp
@@ -496,8 +483,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 4550 4800 4550
 Wire Wire Line
-	4800 4550 4800 5950
-Wire Wire Line
 	7750 4550 7550 4550
 Connection ~ 7550 4550
 Wire Wire Line
@@ -574,8 +559,6 @@ F 3 "" H 4200 5450 50  0001 C CNN
 	1    4200 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 5650 4200 5550
 $Comp
 L Device:C_Small C7
 U 1 1 5F11B915
@@ -587,8 +570,6 @@ F 3 "~" H 4000 5550 50  0001 C CNN
 	1    4000 5550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 5550 4200 5550
 Connection ~ 4200 5550
 Wire Wire Line
 	4200 5550 4200 5450
@@ -673,45 +654,45 @@ BANDWIDTH
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F070491
-P 1100 7150
-F 0 "H1" H 1200 7196 50  0000 L CNN
-F 1 "MountingHole" H 1200 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1100 7150 50  0001 C CNN
-F 3 "~" H 1100 7150 50  0001 C CNN
-	1    1100 7150
+P 600 7700
+F 0 "H1" H 700 7746 50  0000 L CNN
+F 1 "MountingHole" H 700 7655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7700 50  0001 C CNN
+F 3 "~" H 600 7700 50  0001 C CNN
+	1    600  7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F072064
-P 1100 7350
-F 0 "H2" H 1200 7396 50  0000 L CNN
-F 1 "MountingHole" H 1200 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1100 7350 50  0001 C CNN
-F 3 "~" H 1100 7350 50  0001 C CNN
-	1    1100 7350
+P 600 7900
+F 0 "H2" H 700 7946 50  0000 L CNN
+F 1 "MountingHole" H 700 7855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7900 50  0001 C CNN
+F 3 "~" H 600 7900 50  0001 C CNN
+	1    600  7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F076197
-P 1100 7550
-F 0 "H3" H 1200 7596 50  0000 L CNN
-F 1 "MountingHole" H 1200 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1100 7550 50  0001 C CNN
-F 3 "~" H 1100 7550 50  0001 C CNN
-	1    1100 7550
+P 1450 7700
+F 0 "H3" H 1550 7746 50  0000 L CNN
+F 1 "MountingHole" H 1550 7655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1450 7700 50  0001 C CNN
+F 3 "~" H 1450 7700 50  0001 C CNN
+	1    1450 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F0762C6
-P 1100 7750
-F 0 "H4" H 1200 7796 50  0000 L CNN
-F 1 "MountingHole" H 1200 7705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1100 7750 50  0001 C CNN
-F 3 "~" H 1100 7750 50  0001 C CNN
-	1    1100 7750
+P 1450 7900
+F 0 "H4" H 1550 7946 50  0000 L CNN
+F 1 "MountingHole" H 1550 7855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1450 7900 50  0001 C CNN
+F 3 "~" H 1450 7900 50  0001 C CNN
+	1    1450 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1050,84 +1031,57 @@ gain x 100mV/A
 $Comp
 L Device:R_POT_TRIM RV1
 U 1 1 5FF299EA
-P 2850 5850
-F 0 "RV1" H 2781 5896 50  0000 R CNN
-F 1 "100k" H 2781 5805 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 2850 5850 50  0001 C CNN
-F 3 "~" H 2850 5850 50  0001 C CNN
-F 4 "Vishay Svernice" H 2850 5850 50  0001 C CNN "Manufacturer"
-F 5 "TS53YL104MR10" H 2850 5850 50  0001 C CNN "Manufacturer PN"
-	1    2850 5850
+P 2500 5850
+F 0 "RV1" H 2431 5896 50  0000 R CNN
+F 1 "10k" H 2431 5805 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 2500 5850 50  0001 C CNN
+F 3 "~" H 2500 5850 50  0001 C CNN
+F 4 "Vishay Svernice" H 2500 5850 50  0001 C CNN "Manufacturer"
+F 5 "TS53YL103MR10" H 2500 5850 50  0001 C CNN "Manufacturer PN"
+	1    2500 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5FF2A0C5
-P 2850 6050
-F 0 "#PWR0119" H 2850 5800 50  0001 C CNN
-F 1 "GND" H 2855 5877 50  0000 C CNN
-F 2 "" H 2850 6050 50  0001 C CNN
-F 3 "" H 2850 6050 50  0001 C CNN
-	1    2850 6050
+P 2500 6450
+F 0 "#PWR0119" H 2500 6200 50  0001 C CNN
+F 1 "GND" H 2505 6277 50  0000 C CNN
+F 2 "" H 2500 6450 50  0001 C CNN
+F 3 "" H 2500 6450 50  0001 C CNN
+	1    2500 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0120
 U 1 1 5FF2A4DA
-P 2850 5650
-F 0 "#PWR0120" H 2850 5500 50  0001 C CNN
-F 1 "+5V" H 2865 5823 50  0000 C CNN
-F 2 "" H 2850 5650 50  0001 C CNN
-F 3 "" H 2850 5650 50  0001 C CNN
-	1    2850 5650
+P 2500 5300
+F 0 "#PWR0120" H 2500 5150 50  0001 C CNN
+F 1 "+5V" H 2515 5473 50  0000 C CNN
+F 2 "" H 2500 5300 50  0001 C CNN
+F 3 "" H 2500 5300 50  0001 C CNN
+	1    2500 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L Device:R R11
 U 1 1 5FF35394
-P 3250 5850
-F 0 "R10" V 3043 5850 50  0000 C CNN
-F 1 "1M" V 3134 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 5850 50  0001 C CNN
-F 3 "~" H 3250 5850 50  0001 C CNN
-	1    3250 5850
-	0    1    1    0   
+P 3050 6050
+F 0 "R11" V 2935 6050 50  0000 C CNN
+F 1 "1M" V 2844 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 6050 50  0001 C CNN
+F 3 "~" H 3050 6050 50  0001 C CNN
+	1    3050 6050
+	0    -1   -1   0   
 $EndComp
+Text Notes 650  7150 0    50   ~ 0
+Zero-current Offset Trim Procedure:\n1. set 1x gain\n2. apply zero current (open circuit at current terminals)\n3. adjust trimmer until zero-current voltage (BNC output)\n   and BNC ground are the same\n4. increase gain to 10x/100x and fine-tune adjustment
+Text Notes 1350 6100 0    50   ~ 0
+2.5V +/- 200mV\nzero-current offset adjust
 Wire Wire Line
-	3000 5850 3100 5850
-$Comp
-L Device:R R9
-U 1 1 5FF44480
-P 3500 5350
-F 0 "R9" H 3430 5304 50  0000 R CNN
-F 1 "33k" H 3430 5395 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 5350 50  0001 C CNN
-F 3 "~" H 3500 5350 50  0001 C CNN
-	1    3500 5350
-	-1   0    0    1   
-$EndComp
+	2500 5700 2500 5650
 Wire Wire Line
-	3100 4450 3500 4450
-Wire Wire Line
-	3500 4450 3500 5200
-Connection ~ 3100 4450
-Wire Wire Line
-	3100 4450 3100 4550
-Wire Wire Line
-	3400 5850 3500 5850
-Wire Wire Line
-	3500 5850 3500 5500
-Wire Wire Line
-	3500 5850 3650 5850
-Connection ~ 3500 5850
-Text Notes 800  6850 0    50   ~ 0
-Zero Current Offset Trim Procedure:\n1. set 1x gain\n2. apply zero current (open circuit at current terminals)\n3. adjust trimmer until zero-current voltage (BNC output)\n   and BNC ground are the same\n4. increase gain to 10x/100x and fine-tune adjustment
-Text Notes 1600 5850 0    50   ~ 0
-+/- 80mV offset adjust
-Wire Wire Line
-	2850 5700 2850 5650
-Wire Wire Line
-	2850 6000 2850 6050
+	2500 6000 2500 6050
 $Comp
 L Device:C C10
 U 1 1 5FFA0B84
@@ -1155,6 +1109,67 @@ Wire Wire Line
 Wire Wire Line
 	3650 5950 3650 5850
 Connection ~ 3650 5850
+Text Notes 850  3600 0    50   ~ 0
+Zero-current offset voltage specification:\n(25C - 125C, for +/- 20A version which is worst-case)\n+/- 75 mV (initial)\n+/- 118 mV (lifetime drift)\n+/- 193 mV (initial + lifetime drift)
+Wire Wire Line
+	2500 5350 2500 5300
+Wire Wire Line
+	2500 6450 2500 6400
+Connection ~ 3250 5850
+Wire Wire Line
+	3250 5850 3650 5850
+Wire Wire Line
+	3100 4450 3100 4500
+$Comp
+L Device:C C5
+U 1 1 5EFC8D89
+P 3100 4650
+F 0 "C5" H 3215 4696 50  0000 L CNN
+F 1 "1n" H 3215 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4500 50  0001 C CNN
+F 3 "~" H 3100 4650 50  0001 C CNN
+	1    3100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5850 3250 5850
+Wire Wire Line
+	3200 6050 3250 6050
+Wire Wire Line
+	3250 5850 3250 6050
+Wire Wire Line
+	2900 6050 2500 6050
+Connection ~ 2500 6050
+Wire Wire Line
+	2500 6050 2500 6100
+Wire Wire Line
+	4200 5650 4200 5550
 Wire Wire Line
 	3650 5850 4000 5850
+Wire Wire Line
+	4100 5550 4200 5550
+Wire Wire Line
+	4800 4550 4800 5950
+$Comp
+L Device:R R10
+U 1 1 6124FAA4
+P 2500 6250
+F 0 "R10" H 2430 6204 50  0000 R CNN
+F 1 "51k" H 2430 6295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 6250 50  0001 C CNN
+F 3 "~" H 2500 6250 50  0001 C CNN
+	1    2500 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6123D28E
+P 2500 5500
+F 0 "R9" H 2430 5454 50  0000 R CNN
+F 1 "51k" H 2430 5545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 5500 50  0001 C CNN
+F 3 "~" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
