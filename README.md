@@ -3,8 +3,6 @@ Hall effect current sensor board. Invasive (connected in series with DUT), with 
 
 Designed to fit in Hammond 1593W enclosure. Powered by 9V battery. Includes PCBs for front and back panels (20A and 36A options for front panel).
 
-WORK IN PROGRESS
-
 ## Specifications:
 - Output: 0-5V, DC-coupled
 - Maximum input current: +/-20A. Different current limits are possible by
@@ -16,6 +14,20 @@ selecting a different version of the ACS730 Hall effect IC (also changes sensiti
   - -40AB: x1 (50mV/A), x10 (500mV/A), and x100 (5V/A)
 - Bandwidth: selectable between 1kHz, 10kHz, and 100kHz
 - Power supply: 9V battery
+
+## Adjustment Procedure:
+The only adjustment needed is to adjust the zero-current offset voltage so that
+the output reads zero when zero current is applied to the input.
+
+1. Disconnect wires from input jacks so that input current is zero.
+2. Set Gain to 1x and Bandwidth to 1kHz.
+3. Adjust trimmer RV1 until the voltage at the output (between BNC center pin
+and shell) is as close to 0V as possible.
+4. Increase gain to 10x/100x and fine-tune adjustment.
+
+## Possible Future Improvements:
+- use a multi-turn trimpot for zero-current offset adjustment
+- make adjustment trimpot available at rear panel for trim without removing case
 
 ## Schematic:
 [PDF of schematic](pdf/current-sensor.pdf)
